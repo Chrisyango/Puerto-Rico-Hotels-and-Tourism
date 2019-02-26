@@ -88,6 +88,14 @@
 		<li style="background: url('./_assets_/images/hero4.jpg') center no-repeat;background-size: cover;"></li>
 		<li style="background: url('./_assets_/images/hero5.jpg') center no-repeat;background-size: cover;"></li>
 	</ul><!-- /.bxslider -->
+
+	<div class="container">
+		<h1>puerto rico</h1>
+		<h4>hotel & tourism association</h4>
+		<span>
+			Represents the shared interests of its more than 450 corporate members, including hotels, restaurants, tour companies, suppliers of hospitality goods and services, airlines, cruise lines and educational institutions.
+		</span>
+	</div>
 </section><!-- /#slider -->
 
 <main id="main">

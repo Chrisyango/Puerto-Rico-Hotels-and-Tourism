@@ -247,6 +247,15 @@ header .right-nav {float: right;}
 #nav li a:hover:before {content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 4px; background-color: #e95d28;}
 #calendarEvent{left:0px;max-height:500px;overflow-y:auto;margin:0 auto}
 
+
+/*--------------- #nav ---------------*/
+#slider {position: relative; top: -90px; height: 1036px;}
+#slider .container {position: absolute; bottom: 102px; left: 186px; z-index: 51; font-family: 'Prospectus-Bld'; color: #fff; font-weight: 700;}
+#slider h1 { font-size: 140px; text-transform: capitalize; color: #fff; line-height: 28px; margin-bottom: 54px}
+#slider h4 { font-size: 30px; text-transform: capitalize; color: #fff; line-height: 28px; margin-bottom: 17px; margin-left: 3px;}
+#slider span {font-family: 'Avenir-Roman'; font-size: 16px; line-height: 28px; display: block; width: 550px; margin-left: 3px;}
+
+
 /* -----------------------------------------
 
 #inner
