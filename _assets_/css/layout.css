@@ -291,6 +291,12 @@ header .right-nav {float: right;}
 #news-img1 {position: absolute; top: 37px; left: 189px; width: 361px; height: 403px; background: url('../images/news1.jpg') center no-repeat; background-size: cover;}
 #news-img2 {position: absolute; top: 306px; left: 330px; width: 345px; height: 287px; background: url('../images/news2.jpg') center no-repeat; background-size: cover;}
 
+
+/*--------------- #events ---------------*/
+#events {padding: 104px 0; text-align: center;}
+#events h2 {font-family: 'Prospectus-Bld'; font-size: 48px; line-height: 70px; text-transform: capitalize; margin: 0 0 51px;}
+
+
 /* -----------------------------------------
 
 #inner
