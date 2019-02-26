@@ -200,20 +200,17 @@
 			responsive: {
 				0: {
 					items: quickLinkItem(1),
-					margin: 15
 				},
 				500: {
 					items: quickLinkItem(2),
-					margin: 35
 				},
 				900: {
 					items: quickLinkItem(3),
-					margin: 35
 				},
 				1200: {
 					items: quickLinkItem(4),
-					margin: 35,
-					loop: false
+					loop: false,
+					nav: false
 				}
 			}
 		});

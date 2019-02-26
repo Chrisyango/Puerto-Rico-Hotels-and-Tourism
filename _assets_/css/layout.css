@@ -44,14 +44,14 @@
 }
 
 
-body{background:#fff;font-size:14px;line-height:1.6;font-family:'Avenir-Roman', 'sans-serif';color:#444;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-text-size-adjust:100%}
+body{background:#fff;font-size:14px;line-height:1.6;font-family:'Avenir-Roman', 'sans-serif';color:#262626;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-text-size-adjust:100%}
 
 /* -----------------------------------------
 
 #typography
 
 -----------------------------------------*/
-h1,h2,h3,h4,h5,h6{color:#111;font-weight:normal;margin-bottom:30px;line-height:1.2}
+h1,h2,h3,h4,h5,h6{color:#262626;font-weight:normal;margin-bottom:30px;line-height:1.2}
 h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{font-weight:inherit}
 h1{font-size:36px}
 h2{font-size:32px}
@@ -59,8 +59,8 @@ h3{font-size:28px}
 h4{font-size:21px}
 h5{font-size:16px}
 h6{font-size:14px}
-.header{font-size:28px;color:#111;margin-bottom:30px}
-.subheader{font-size:21px;color:#111;margin-bottom:30px}
+.header{font-size:28px;color:#262626;margin-bottom:30px}
+.subheader{font-size:21px;color:#262626;margin-bottom:30px}
 p{margin:0 0 30px 0}
 em{font-style:italic}
 strong,b{font-weight:bold}
@@ -189,7 +189,7 @@ form.loginform label input{display:block;margin-bottom:10px;width:100%;box-sizin
 #rz notify
 
 -----------------------------------------*/
-.e-notify{font-weight:bold;font-size:12px;background:#E7DF7F;position:fixed;padding:3px 13px 2px;bottom:10px;left:10px;color:#111;border-radius:50px;text-transform:uppercase;z-index:999;overflow:hidden;box-shadow:0 0 10px rgba(0,0,0,.175)}
+.e-notify{font-weight:bold;font-size:12px;background:#E7DF7F;position:fixed;padding:3px 13px 2px;bottom:10px;left:10px;color:#262626;border-radius:50px;text-transform:uppercase;z-index:999;overflow:hidden;box-shadow:0 0 10px rgba(0,0,0,.175)}
 .e-notify img{display:none}
 .e-notify i{margin-right:4px!important}
 .e-notify a{position:absolute;top:0;bottom:0;left:0;right:0}
@@ -216,7 +216,8 @@ form.loginform label input{display:block;margin-bottom:10px;width:100%;box-sizin
 
 -----------------------------------------*/
 body{overflow-x:hidden}
-.container {width: 1290px; max-width: 100%;}
+main {margin-top: -90px; background-color: #f7fbfa;}
+.container {width: 1320px; max-width: 100%;}
 .text-overflow{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 #nav-toggle,
 .toggle,
@@ -237,7 +238,7 @@ body{overflow-x:hidden}
 #nav>li>ul li a{display:block}
 #search {display: none;}
 
-header>.container {background-color: #fff; position: relative; z-index: 100;}
+header>.container {background-color: #fff; position: relative; z-index: 100; width: 1290px;}
 header .logo {float: left; width: 221px; padding: 5px 0 12px; margin-left: 21px;}
 header .right-nav {float: right;}
 #nav {font-size: 0; margin: 0; padding: 0;}
@@ -255,6 +256,29 @@ header .right-nav {float: right;}
 #slider h4 { font-size: 30px; text-transform: capitalize; color: #fff; line-height: 28px; margin-bottom: 17px; margin-left: 3px;}
 #slider span {font-family: 'Avenir-Roman'; font-size: 16px; line-height: 28px; display: block; width: 550px; margin-left: 3px;}
 
+
+/*--------------- #quick-links ---------------*/
+#quick-links {padding: 83px 0 66px;}
+#quick-links .owl-item {height: 300px;}
+#quick-links a {position: relative; font-family: 'Prospectus-Bld'; font-size: 24px; line-height: 30px; text-transform: capitalize; color: #262626; text-align: center; display: block; text-decoration: none; padding: 59px; height: 283px;}
+#quick-links a:hover {background-color: #fff; box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.1);}
+#quick-links a:hover:before {content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 4px; background-color: #e95d28;}
+#quick-links .quick-link-img {width: 55px; margin: 0 auto 16px;}
+.quick-link span {position: absolute; bottom: 42px; left: 50%; transform: translateX(-50%); font-family: 'Avenir-Heavy'; font-size: 12px; text-transform: uppercase; color: #008554; display: block; margin-top: 15px; letter-spacing: 0.2em;}
+
+
+/*--------------- #vacation ---------------*/
+#vacation {background-color: #fff; padding: 102px 0; height: 950px;}
+#vacation h2 {font-family: 'Prospectus-Bold'; font-size: 48px; text-transform: capitalize; margin: 0; padding: 0;}
+#vacation p {font-size: 16px; line-height: 24px; width: 285px; margin: 10px 0 0;}
+#vacation .btn {font-family: 'Avenir-Heavy'; font-size: 12px; background-color: #008554; float: right; width: 150px; line-height: 30px; margin-top: 18px; letter-spacing: 0.2em;}
+.img-container {position: relative;}
+#vacation-img1 {position: absolute; top: 113px; left: 0px; width: 159px; height: 369px; background: url('../images/vacation1.jpg') center no-repeat; background-size: cover;}
+#vacation-img2 {position: absolute; top: 61px; left: 205px; width: 410px; height: 472px; background: url('../images/vacation2.jpg') center no-repeat; background-size: cover;}
+#vacation-img3 {position: absolute; top: -91px; left: 645px; width: 300px; height: 430px; background: url('../images/vacation3.jpg') center no-repeat; background-size: cover;}
+#vacation-img4 {position: absolute; top: 370px; left: 645px; width: 300px; height: 209px; background: url('../images/vacation4.jpg') center no-repeat; background-size: cover;}
+#vacation-img5 {position: absolute; top: -20px; right: 425px; width: 300px; height: 487px; background: url('../images/vacation5.jpg') center no-repeat; background-size: cover;}
+#vacation-img6 {position: absolute; top: 56px; right: 0px; width: 395px; height: 476px; background: url('../images/vacation6.jpg') center no-repeat; background-size: cover;}
 
 /* -----------------------------------------
 

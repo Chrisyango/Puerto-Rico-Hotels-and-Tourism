@@ -95,7 +95,7 @@
 		<span>
 			Represents the shared interests of its more than 450 corporate members, including hotels, restaurants, tour companies, suppliers of hospitality goods and services, airlines, cruise lines and educational institutions.
 		</span>
-	</div>
+	</div><!-- /.container -->
 </section><!-- /#slider -->
 
 <main id="main">
@@ -103,39 +103,45 @@
 		<div id="quick-links" class="owl-carousel">
 			<a href="./" class="quick-link">
 				<img src="./_assets_/images/quick-link1.png" alt="Quick-link Icon" class="quick-link-img">
-				<span class="quick-link-title">about us</span>
-				learn more
+				about us
+				<span>learn more</span>
 			</a><!--/.quick-link-link-->
 			<a href="./" class="quick-link">
 				<img src="./_assets_/images/quick-link2.png" alt="Quick-link Icon" class="quick-link-img">
-				<span class="quick-link-title">memberships</span>
-				learn more
+				memberships
+				<span>learn more</span>
 			</a><!--/.quick-link-link-->
 			<a href="./" class="quick-link">
 				<img src="./_assets_/images/quick-link3.png" alt="Quick-link Icon" class="quick-link-img">
-				<span class="quick-link-title">meetings and events</span>
-				learn more
+				meetings and events
+				<span>learn more</span>
 			</a><!--/.quick-link-->
 			<a href="./" class="quick-link">
 				<img src="./_assets_/images/quick-link4.png" alt="Quick-link Icon" class="quick-link-img">
-				<span class="quick-link-title">latest news</span>
-				learn more
+				latest news
+				<span>learn more</span>
 			</a><!--/.quick-link-->
 		</div><!-- /#quick-links.owl-carousel -->
 	</div><!-- /.container -->
 
 	<section id="vacation">
 		<div class="container">
+			<a href="./" class="btn">learn more</a>
 			<h2>plan your vacation</h2>
 			<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
-			<a href="./" class="btn">learn more</a>
 		</div><!-- /.container -->
-		<img src="./_assets_/images/vacation1.jpg" alt="Vacation Image" class="vacation-img">
-		<img src="./_assets_/images/vacation2.jpg" alt="Vacation Image" class="vacation-img">
-		<img src="./_assets_/images/vacation3.jpg" alt="Vacation Image" class="vacation-img">
-		<img src="./_assets_/images/vacation4.jpg" alt="Vacation Image" class="vacation-img">
-		<img src="./_assets_/images/vacation5.jpg" alt="Vacation Image" class="vacation-img">
-		<img src="./_assets_/images/vacation6.jpg" alt="Vacation Image" class="vacation-img">
+		<div class="img-container">
+			<div id="vacation-img1"></div>
+			<div id="vacation-img2"></div>
+			<div id="vacation-img3"></div>
+			<div id="vacation-img4"></div>
+			<div id="vacation-img5"></div>
+			<div id="vacation-img6"></div>
+			<!-- <img src="./_assets_/images/vacation3.jpg" alt="Vacation Image" id="vacation-img3">
+			<img src="./_assets_/images/vacation4.jpg" alt="Vacation Image" id="vacation-img4">
+			<img src="./_assets_/images/vacation5.jpg" alt="Vacation Image" id="vacation-img5">
+			<img src="./_assets_/images/vacation6.jpg" alt="Vacation Image" id="vacation-img6"> -->
+		</div>
 	</section><!-- /#vacation -->
 
 	<section id="news">
