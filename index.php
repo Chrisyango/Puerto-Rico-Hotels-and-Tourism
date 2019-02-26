@@ -58,7 +58,7 @@
 				</script>
 				<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 			</div><!-- /#google-translate -->
-			<div class="fa fa-search"></div>
+			<div class="fa fa-search" id="search-toggle"></div>
 		</div><!-- /.right-nav -->
 
 		<div id="search">
@@ -130,22 +130,28 @@
 			<h2>plan your vacation</h2>
 			<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
 		</div><!-- /.container -->
-		<div class="img-container">
-			<div id="vacation-img1"></div>
-			<div id="vacation-img2"></div>
-			<div id="vacation-img3"></div>
-			<div id="vacation-img4"></div>
-			<div id="vacation-img5"></div>
-			<div id="vacation-img6"></div>
+		<div id="vacation-gallery" class="clearfix">
+			<div class="vacation-gallery-col"> 
+				<div class="vacation-gallery-image" style="background:url('_assets_/images/vacation1.jpg') center no-repeat;background-size:cover"></div>
+			</div><!--/.vacation-gallery-col-->
+			<div class="vacation-gallery-col"> 
+				<div class="vacation-gallery-image" style="background:url('_assets_/images/vacation2.jpg') center no-repeat;background-size:cover"></div>
+			</div><!--/.vacation-gallery-col-->
+			<div class="vacation-gallery-col"> 
+				<div class="vacation-gallery-image" style="background:url('_assets_/images/vacation3.jpg') center no-repeat;background-size:cover"></div>
+				<div class="vacation-gallery-image" style="background:url('_assets_/images/vacation4.jpg') center no-repeat;background-size:cover"></div>
+			</div><!--/.vacation-gallery-col-->
+			<div class="vacation-gallery-col"> 
+				<div class="vacation-gallery-image" style="background:url('_assets_/images/vacation5.jpg') center no-repeat;background-size:cover"></div>
+			</div><!--/.vacation-gallery-col-->
+			<div class="vacation-gallery-col"> 
+				<div class="vacation-gallery-image" style="background:url('_assets_/images/vacation6.jpg') center no-repeat;background-size:cover"></div>
+			</div><!--/.vacation-gallery-col-->
 		</div>
 	</section><!-- /#vacation -->
 
 	<section id="news">
 		<div class="container">
-			<div class="img-container">
-				<div id="news-img1"></div>
-				<div id="news-img2"></div>
-			</div>
 			<div id="news-links">
 				<h2>latest news</h2>
 				<a href="./" class="news-link">
@@ -158,6 +164,10 @@
 				</a><!-- /.news-link -->
 				<a href="./" class="btn">view all news & announcements</a>
 			</div><!-- /.news-links -->
+			<div id="img-container" class="clearfix">
+				<div id="news-img1"></div>
+				<div id="news-img2"></div>
+			</div>
 		</div><!-- /.container -->
 	</section><!-- /#news -->
 
