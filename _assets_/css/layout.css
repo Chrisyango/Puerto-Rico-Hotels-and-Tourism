@@ -293,9 +293,19 @@ header .right-nav {float: right;}
 
 
 /*--------------- #events ---------------*/
-#events {padding: 104px 0; text-align: center;}
+#events {padding: 104px 0 120px; text-align: center;}
 #events h2 {font-family: 'Prospectus-Bld'; font-size: 48px; line-height: 70px; text-transform: capitalize; margin: 0 0 51px;}
 
+
+/*--------------- #events ---------------*/
+#footer-links {background-color: #151515; padding: 120px 0 108px; color: #f9f8e6; text-transform: capitalize; text-align: center;}
+#footer-links img {display: block; margin: 0 auto;}
+#footer-links #footer-logo {width: 185px; margin: 76px auto 31px;}
+#footer-links p {margin-bottom: 5px; font-family: 'Roboto', 'sans-serif'; font-size: 13px; line-height: 15px; font-weight: 700;}
+#footer-links p span {color: #e95d28; margin-right: 7px;}
+#footer-nav {margin: 35px 0 0;}
+#footer-nav li {display: inline-block; margin: 0 35px 0 0;}
+#footer-nav li a {font-family: 'Avenir-Heavy'; font-size: 18px; line-height: 15px; color: #e95d28; text-transform: capitalize; text-decoration: none;}
 
 /* -----------------------------------------
 

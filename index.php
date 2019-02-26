@@ -169,20 +169,18 @@
 	</section><!-- /#events -->
 
 	<section id="footer-links">
-		<div class="banner"></div>
+		<img src="./_assets_/images/banner.jpg" alt="Banner" id="banner">
 		<div id="contact">
-			<img src="./_assets_/images/footer-logo.png" alt="Logo">
+			<img src="./_assets_/images/footer-logo.png" alt="Logo" id="footer-logo">
 			<p><span>phone</span> (787) 758-8001</p>
 			<p><span>fax</span> (787) 758-8091</p>
 		</div><!-- /#contact -->
-		<div id="footer-nav">
-			<ul>
-				<li><a href="./">promotional tools</a></li>
-				<li><a href="./">post hurricane info</a></li>
-				<li><a href="./">educational fund</a></li>
-				<li><a href="./">contact</a></li>
-			</ul>
-		</div><!-- /#footer-nav -->
+		<ul id="footer-nav">
+			<li><a href="./">promotional tools</a></li>
+			<li><a href="./">post hurricane info</a></li>
+			<li><a href="./">educational fund</a></li>
+			<li><a href="./">contact</a></li>
+		</ul>
 	</section><!-- /#footer-links -->
 </main>
 
