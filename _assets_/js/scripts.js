@@ -271,7 +271,35 @@
 
 	// Owl Slider
 	if(typeof $.fn.owlCarousel !== "undefined"){
-		$("#owl-slider").owlCarousel();
+		let quickLinkCount = $('.quick-link').length;
+		const quickLinkItem = function(num) {
+			return (quickLinkCount >= num ? num : quickLinkCount);
+		}
+		$("#quick-links").owlCarousel({
+			loop: true,
+			responsiveClass: true,
+			nav: true,
+			navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+			responsive: {
+				0: {
+					items: quickLinkItem(1),
+					margin: 15
+				},
+				500: {
+					items: quickLinkItem(2),
+					margin: 35
+				},
+				900: {
+					items: quickLinkItem(3),
+					margin: 35
+				},
+				1200: {
+					items: quickLinkItem(4),
+					margin: 35,
+					loop: false
+				}
+			}
+		});
 	}
 
 	// Preloader

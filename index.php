@@ -36,167 +36,165 @@
 </head>
 <body id="homepage">
 
-<div id="loader-wrapper"><img src="_assets_/images/ripple.gif" alt="Loading..."></div><!-- /.loader-wrapper -->
-
-<div class="main-wrap">
+<header class="clearfix">
 	<div class="container">
+		<div id="toggles" class="hidden-lg hidden-md">
+			<label for="search-input" id="search-toggle-mobile" class="fa fa-search"></label>
+			<div id="nav-toggle" class="fa fa-bars"></div>
+		</div><!-- /#toggles -->
 
-		<header>
-			<div class="row">
+		<a href="./" class="logo">
+			<img src="./_assets_/images/logo.jpg" alt="Logo">
+		</a>
 
-				<div class="col-md-12">
-					<div class="page-header"><h2>Sample Header plus nav</h2></div><!-- /.page-header -->
-				</div><!-- /.col-md-12 -->
+		<div class="right-nav">
+			<div id="google-translate">
+				<script type="text/javascript">
+					function googleTranslateElementInit() {
+						new google.translate.TranslateElement({pagelanguage: 'en',
+							layout: google.translate.TranslateElement.InlineLayout.SIMPLE},
+							'google-translate');
+					}
+				</script>
+				<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+			</div><!-- /#google-translate -->
+			<div class="fa fa-search"></div>
+		</div><!-- /.right-nav -->
 
-				<div id="header" class="col-md-12 clearfix">
+		<div id="search">
+			<form class="search-form" method="get" action="search.php">
+				<label class="fa fa-search" for="search-input"></label>
+				<input name="q" class="form-control search-input" placeholder="I'm looking for..." type="search" id="search-input">
+				<button>Go</button>
+			</form><!-- /.search-form -->
+		</div><!-- /#search -->
 
-					<a href="" class="logo"><h1 class="h4">Logo</h1></a>
+		<nav>
+			<ul id="nav">
+				<li><a href="./">home page</a></li>
+				<li><a href="./">about us</a></li>
+				<li><a href="./">member</a></li>
+				<li><a href="./">publications</a></li>
+			</ul> <!-- /#nav -->
+		</nav>
+	</div>
+</header>
 
-					<ul id="nav">
-						<li><a href="">Home</a></li>
-						<li><a href="">Departments</a>
-							<ul>
-								<li><a href="">Management</a>
-									<ul>
-										<li><a href="">Management</a></li>
-										<li><a href="">Finance</a></li>
-										<li><a href="">Planning</a></li>
-										<li><a href="">Public Works</a></li>
-										<li><a href="">Police</a></li>
-										<li><a href="">Fire / EMS</a></li>
-										<li><a href="">Libraries</a></li>
-										<li><a href="">Education</a></li>
-										<li><a href="">Parks &amp; Recreation</a></li>
-										<li><a href="">Information Technology</a></li>
-									</ul>
-								</li>
-								<li><a href="">Finance</a></li>
-								<li><a href="">Planning</a></li>
-								<li><a href="">Public Works</a></li>
-								<li><a href="">Police</a></li>
-								<li><a href="">Fire / EMS</a></li>
-								<li><a href="">Libraries</a></li>
-								<li><a href="">Education</a></li>
-								<li><a href="">Parks &amp; Recreation</a></li>
-								<li><a href="">Information Technology</a></li>
-							</ul>
-						</li>
-						<li><a href="">About</a>
-							<ul>
-								<li><a href="">About The Area</a></li>
-								<li><a href="">Maps</a></li>
-								<li><a href="">Links</a></li>
-								<li><a href="">Photos</a></li>
-							</ul>
-						</li>
-						<li><span>Information</span>
-							<ul>
-								<li><span>How Do I?</span>
-									<ul>
-										<li><a href="">Management</a></li>
-										<li><a href="">Finance</a></li>
-										<li><a href="">Planning</a></li>
-										<li><a href="">Public Works</a></li>
-										<li><a href="">Police</a></li>
-										<li><a href="">Fire / EMS</a></li>
-										<li><a href="">Libraries</a></li>
-										<li><a href="">Education</a></li>
-										<li><a href="">Parks &amp; Recreation</a></li>
-										<li><a href="">Information Technology</a></li>
-									</ul>
-								</li>
-								<li><a href="">Contact Us</a></li>
-								<li><a href="">News</a></li>
-								<li><a href="">Announcements</a></li>
-								<li><a href="">Jobs</a></li>
-								<li><a href="">Minutes</a></li>
-								<li><a href="">RFP's</a></li>
-							</ul>
-						</li>
-					</ul>
+<section id="slider">
+	<ul class="bxslider">
+		<li style="background: url('./_assets_/images/hero1.jpg') center no-repeat;background-size: cover;"></li>
+		<li style="background: url('./_assets_/images/hero2.jpg') center no-repeat;background-size: cover;"></li>
+		<li style="background: url('./_assets_/images/hero3.jpg') center no-repeat;background-size: cover;"></li>
+		<li style="background: url('./_assets_/images/hero4.jpg') center no-repeat;background-size: cover;"></li>
+		<li style="background: url('./_assets_/images/hero5.jpg') center no-repeat;background-size: cover;"></li>
+	</ul><!-- /.bxslider -->
+</section><!-- /#slider -->
 
-					<div id="search">
-						<form class="search-form" method="get" action="search.php">
-							<label class="fa fa-search" for="search-input"></label>
-							<input name="q" class="form-control search-input" placeholder="Enter search terms..." type="search" id="search-input">
-							<button>Go</button>
-						</form>
-					</div><!-- /#search -->
-
-				</div><!-- /#header -->
-			</div><!-- /.row -->
-		</header>
-
-		<div class="weather">
-			<div id="weather"></div><!-- /#weather -->
-		</div><!-- /.weather -->
-
-		<div class="row">
-			<div class="col-md-12">
-
-				<div id="slider">
-					<ul class="bxslider">
-					  <li style="background:url('_assets_/images/slide1.jpg') center no-repeat;background-size:cover"></li>
-					  <li style="background:url('_assets_/images/slide2.jpg') center no-repeat;background-size:cover"></li>
-					</ul>
-				</div><!-- /#slider -->
-
-			</div><!-- /.col-md-12 -->
-		</div><!-- /.row -->
-
-		<div class="row">
-			<div class="col-md-6">
-				<div id="instafeed"></div>
-			</div><!-- /.col-md-12 -->
-			<div class="col-md-6">
-				<div id="twitterfeed"></div>
-			</div><!-- /.col-md-12 -->
-		</div><!-- /.row -->
-
-		<div class="row ">
-			<div class="col-md-6 col1">
-				<h2>City Newsletter</h2>
-                <form class="signup submission" id="newletter-signup"  action="optin.php" enctype="application/x-www-form-urlencoded" method="post">
-					<input type="email" name="femail" placeholder="Enter your email address" required>
-					<button>Sign Up</button>
-				</form>
-			</div><!-- /.col-md-6 -->
-
-			<div class="col-md-6">
-				<h2>Stay Updated</h2>
-				<form action="enotify/index.php" id="enotify-signup" class="signup clearfix">
-					<input type="email" name="email" placeholder="Enter your email address" required>
-					<button>Sign Up</button>
-				</form>
-			</div><!-- /.col-md-6 -->
-		</div><!-- /.row -->
-
+<main id="main">
+	<div class="container">
+		<div id="quick-links" class="owl-carousel">
+			<a href="./" class="quick-link">
+				<img src="./_assets_/images/quick-link1.png" alt="Quick-link Icon" class="quick-link-img">
+				<span class="quick-link-title">about us</span>
+				learn more
+			</a><!--/.quick-link-link-->
+			<a href="./" class="quick-link">
+				<img src="./_assets_/images/quick-link2.png" alt="Quick-link Icon" class="quick-link-img">
+				<span class="quick-link-title">memberships</span>
+				learn more
+			</a><!--/.quick-link-link-->
+			<a href="./" class="quick-link">
+				<img src="./_assets_/images/quick-link3.png" alt="Quick-link Icon" class="quick-link-img">
+				<span class="quick-link-title">meetings and events</span>
+				learn more
+			</a><!--/.quick-link-->
+			<a href="./" class="quick-link">
+				<img src="./_assets_/images/quick-link4.png" alt="Quick-link Icon" class="quick-link-img">
+				<span class="quick-link-title">latest news</span>
+				learn more
+			</a><!--/.quick-link-->
+		</div><!-- /#quick-links.owl-carousel -->
 	</div><!-- /.container -->
 
-	<footer id="footer">
+	<section id="vacation">
+		<div class="container">
+			<h2>plan your vacation</h2>
+			<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+			<a href="./" class="btn">learn more</a>
+		</div><!-- /.container -->
+		<img src="./_assets_/images/vacation1.jpg" alt="Vacation Image" class="vacation-img">
+		<img src="./_assets_/images/vacation2.jpg" alt="Vacation Image" class="vacation-img">
+		<img src="./_assets_/images/vacation3.jpg" alt="Vacation Image" class="vacation-img">
+		<img src="./_assets_/images/vacation4.jpg" alt="Vacation Image" class="vacation-img">
+		<img src="./_assets_/images/vacation5.jpg" alt="Vacation Image" class="vacation-img">
+		<img src="./_assets_/images/vacation6.jpg" alt="Vacation Image" class="vacation-img">
+	</section><!-- /#vacation -->
 
-		<span id="revize-login">
-			<span class="powered-by-revize">
-				Powered By <a id="powered-by-revize-link" target="_blank" href="http://www.revize.com">Revize</a>
-			</span>
-			<a id="revize-login-link" href="">Login</a>
-		</span>
+	<section id="news">
+		<div class="container">
+			<h2>latest news</h2>
+			<div class="news-links">
+				<a href="./" class="news-link">
+					<span>nov 12, 2018</span>
+					Lorem Etiam Consectetur Cras Pharetra Cras Dapibus
+				</a><!-- /.news-link -->
+				<a href="./" class="news-link">
+					<span>nov 12, 2018</span>
+					Aenean lacinia bibendum nulla sed consectetur nullam Tellus
+				</a><!-- /.news-link -->
+			</div><!-- /.news-links -->
+			<a href="./" class="btn">view all news & announcements</a>
+		</div><!-- /.container -->
+	</section><!-- /#news -->
 
-	</footer><!-- /#footer -->
+	<section id="events">
+		<div class="container">
+			<h2>latest events</h2>
+			<img src="./_assets_/images/events.png" alt="Events Image">
+		</div><!-- /.container -->
+	</section><!-- /#events -->
 
-	<div class="alert alert-dismissible floating-alert fade in os-animation" data-os-animation="fadeInUpBig" data-os-animation-delay="2s" role="alert">
-		<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-		<h1>Alert Title 30 characters Max</h1>
-		<p>Max 120 characters Max 120 characters Max 120 characters Max 120 characters Max 120 characters Max 120 characters Max 120</p>
-		<p><a href="#" class="btn">Read More</a></p>
-	</div><!-- /.alert -->
+	<section id="footer-links">
+		<div class="banner"></div>
+		<div id="contact">
+			<img src="./_assets_/images/footer-logo.png" alt="Logo">
+			<p><span>phone</span> (787) 758-8001</p>
+			<p><span>fax</span> (787) 758-8091</p>
+		</div><!-- /#contact -->
+		<div id="footer-nav">
+			<ul>
+				<li><a href="./">promotional tools</a></li>
+				<li><a href="./">post hurricane info</a></li>
+				<li><a href="./">educational fund</a></li>
+				<li><a href="./">contact</a></li>
+			</ul>
+		</div><!-- /#footer-nav -->
+	</section><!-- /#footer-links -->
+</main>
 
-</div><!-- /.main-wrap -->
+<footer>
+	<div class="container">
+		<div id="footer-left">
+			<span>&copy; Copyright 2018 Puerto Rico Hotel & Tourism Association</span> <span>33 Resoluci&Oacute;n STE 701-B San Juan, Puerto Rico 00920-2707</span>
+		</div><!-- /#footer-left -->
+		<div id="footer-right">
+			<span>Powered by <a href="https://www.revize.com/" id="revize-logo">revize.</a>, The Government Website Experts</span> <a href="./">login</a> 
+		</div> <!-- /#footer-right -->
+	</div>
+</footer>
+
+<div class="alert alert-dismissible floating-alert fade in os-animation" data-os-animation="fadeInUpBig" data-os-animation-delay="2s" role="alert">
+	<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	<h1>Alert Title 30 characters Max</h1>
+	<p>Max 120 characters Max 120 characters Max 120 characters Max 120 characters Max 120 characters Max 120 characters Max 120</p>
+	<p><a href="#" class="btn">Read More</a></p>
+</div><!-- /.alert -->
 
 
 <!-- Share widget make into an include file -->
 <button type="button" class="share-btn floating-share-btn" data-toggle="modal" data-target="#shareModal">
 	<i class="fa fa-share-alt"></i>
+	<span>Share</span>
 </button>
 
 <div class="modal fade" id="shareModal" tabindex="-1" role="dialog" aria-labelledby="shareModal">
