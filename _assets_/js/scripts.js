@@ -198,10 +198,10 @@
 			nav: true,
 			navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
 			responsive: {
-				0: {
+				500: {
 					items: quickLinkItem(1),
 				},
-				500: {
+				700: {
 					items: quickLinkItem(2),
 				},
 				900: {
