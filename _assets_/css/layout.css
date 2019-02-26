@@ -126,21 +126,21 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"],
-.btn{padding:10px 20px;background:#0f99ee;color:#fff!important;border:0;border-radius:0;display:inline-block;font-size:12px;font-weight:900!important;text-decoration:none;cursor:pointer;line-height:normal;vertical-align:top;font-family:sans-serif;text-transform:uppercase;transition:background .3s}
+.btn{padding:10px 20px;background:#008554;color:#fff!important;border:0;border-radius:0;display:inline-block;font-size:12px;font-weight:900!important;text-decoration:none;cursor:pointer;line-height:normal;vertical-align:top;font-family:sans-serif;text-transform:uppercase;transition:background .3s}
 .button:hover,
 a.button:hover,
 button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover,
-.btn:hover{-webkit-box-shadow:none;-moz-box-shadow:none;-o-box-shadow:none;box-shadow:none;background:#0e8cda}
+.btn:hover{-webkit-box-shadow:none;-moz-box-shadow:none;-o-box-shadow:none;box-shadow:none;background:#008554}
 .button:active,
 a.button:active,
 button:active,
 input[type="submit"]:active,
 input[type="reset"]:active,
 input[type="button"]:active,
-.btn:active{-webkit-box-shadow:none;-moz-box-shadow:none;-o-box-shadow:none;box-shadow:none;background:#0e8cda}
+.btn:active{-webkit-box-shadow:none;-moz-box-shadow:none;-o-box-shadow:none;box-shadow:none;background:#008554}
 button::-moz-focus-inner,
 input::-moz-focus-inner{border:0;padding:0}
 
@@ -225,15 +225,6 @@ main {margin-top: -90px; background-color: #f7fbfa;}
 
 
 /*--------------- #nav ---------------*/
-#nav>li>ul {
-    -moz-column-count: 4;
-    -moz-column-gap: 40px;
-    -webkit-column-count: 4;
-    -webkit-column-gap: 40px;
-    column-count: 4;
-    column-gap: 40px;
-    padding:40px
-}
 #nav>li>ul li{display:inline-block;width:100%}
 #nav>li>ul li a{display:block}
 #search {display: none; position: absolute; right: 0; top: calc(100% + 15px);}
@@ -244,8 +235,10 @@ main {margin-top: -90px; background-color: #f7fbfa;}
 header>.container {background-color: #fff; position: relative; z-index: 100; width: 1290px;}
 header .logo {float: left; width: 221px; padding: 5px 0 12px; margin-left: 21px;}
 header .right-nav {float: right;}
-#google-translate {float: left;}
-#search-toggle {float: right; font-size: 28px; width: 76px; line-height: 90px; text-align: center; color:#e95d28;}
+#translation-links {float: left; margin: 34px 16px 0 0; padding: 0;}
+#translation-links li {display: inline-block; margin: 0; padding: 0;}
+#translation-links li a {font-family: 'Avenir-Heavy'; font-size: 16px; line-height: 28px; text-transform: uppercase; text-decoration: none; color: #848484; margin-left: 10px;}
+#search-toggle {float: right; font-size: 28px; width: 76px; line-height: 90px; text-align: center; color:#e95d28; display: none;}
 
 #nav {font-size: 0; margin: 0; padding: 0;}
 #nav li {position: relative; left: 151px; display: inline-block; margin: 0; padding: 0;}
@@ -377,7 +370,8 @@ footer {background-color: #0e0e0e; padding: 36px 0 28px; font-size: 13px; line-h
 .btn-google:hover{border-color:#D34836}
 .btn-reddit:hover{border-color:#ff5700}
 .btn-lg{font-size:16px;padding:14px 30px;border:0;border-radius:3px}
-.floating-share-btn{position:fixed;z-index:99999;top:40%;right:0;height:50px;width:50px;border-radius:0;border:0;background:#F26A39!important;color:#fff!important;line-height:50px;padding:0;box-shadow:0 0 10px rgba(0,0,0,.3);text-align:center}
+.floating-share-btn{position:fixed;z-index:99999;top:40%;right:0;line-height:1.8;border-radius:0;border:0;background:#008554!important;color:#fff!important;padding:10px;box-shadow:0 0 10px rgba(0,0,0,.3);text-align:center}
+.floating-share-btn span {display:block}
 
 /* -----------------------------------------
 
@@ -424,9 +418,30 @@ footer {background-color: #0e0e0e; padding: 36px 0 28px; font-size: 13px; line-h
 	#slider .container {padding-left: 15px; bottom: 55px;}
 }
 
-@media only screen and (min-width:992px) {
+@media only screen and (max-width:1280px) {
+	/*--------------- #nav ---------------*/
+	#nav li a {padding: 31px 15px;}
+}
 
-		#flyout,#nav{display:block!important}
+@media only screen and (max-width:1024px) {
+	/*--------------- #nav ---------------*/
+	#nav li {left: 80px;}
+}
+
+
+@media only screen and (min-width:992px) {
+	/*--------------- #nav ---------------*/
+	#nav>li>ul {
+		-moz-column-count: 4;
+		-moz-column-gap: 40px;
+		-webkit-column-count: 4;
+		-webkit-column-gap: 40px;
+		column-count: 4;
+		column-gap: 40px;
+		padding:40px
+	}
+	#flyout,#nav{display:block!important}
+	#search-toggle {display: block;}
 
 }
 
@@ -439,14 +454,21 @@ footer {background-color: #0e0e0e; padding: 36px 0 28px; font-size: 13px; line-h
 	#freeform #formwizziwmorf tr table tr{display:table-row!important}
 	#freeform #formwizziwmorf tr table td{display:table-cell!important}
 
+	/*--------------- #nav ---------------*/
+	#toggles {float: right;}
+	#search {width: 100%;}
+	#search input {width: 100%;}
+	#search-toggle-mobile,
+	#nav-toggle {line-height:45px;width:45px;text-align:center;border:1px solid rgba(0,0,0,.15);cursor:pointer;font-size:20px;color:#000;border-radius:4px;margin-left:5px;margin-top:20px}
+
 	.toggle,
 	.toggle2,
 	#nav-toggle{display:inline-block;cursor:pointer}
 	.down-arrow{display:none} /* if not hidden above */
-	#nav{display:none}
-	#nav li{float:none;display:block}
+	#nav{display:none; float: left; width: 100%;background-color: #e95d28; margin-bottom: 15px;}
+	#nav li{float:none;display:block; left: 0;}
 	#nav li a,
-	#nav li span{padding:20px 30px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px}
+	#nav li span{position: relative; padding:15px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px; width: 100%; color:#fff;}
 	#nav ul{position:static;top:0;padding:0;background:rgba(0,0,0,.2)}
 	#nav li:hover > ul{display:none}
 	#nav ul a,
@@ -497,6 +519,9 @@ footer {background-color: #0e0e0e; padding: 36px 0 28px; font-size: 13px; line-h
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width:479px) {
+	/*--------------- #nav ---------------*/
+	#header .logo {margin-left: 0;}
+
 	/*--------------- #slider ---------------*/
 	#slider h1 {font-size: 60px;}
 	#slider h4 {font-size: 20px;}

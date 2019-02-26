@@ -48,16 +48,20 @@
 		</a>
 
 		<div class="right-nav">
-			<div id="google-translate">
-				<script type="text/javascript">
-					function googleTranslateElementInit() {
-						new google.translate.TranslateElement({pagelanguage: 'en',
-							layout: google.translate.TranslateElement.InlineLayout.SIMPLE},
-							'google-translate');
-					}
-				</script>
-				<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-			</div><!-- /#google-translate -->
+		<div id="google-translate" class="hidden">
+			<script type="text/javascript">
+				function googleTranslateElementInit() {
+					new google.translate.TranslateElement({pagelanguage: 'en',
+						layout: google.translate.TranslateElement.InlineLayout.SIMPLE},
+						'google-translate');
+				}
+			</script>
+			<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+			</div><!--/#google-translate.control.hidden-sm.hidden-xs-->
+			<ul id="translation-links" class="hidden-sm hidden-xs">
+				<li><a href="#" class="Spanish" data-lang="Spanish">es</a></li>
+				<li><a href="#" class="English" data-lang="English">en</a></li>
+			</ul><!--/#translation-links-->
 			<div class="fa fa-search" id="search-toggle"></div>
 		</div><!-- /.right-nav -->
 
