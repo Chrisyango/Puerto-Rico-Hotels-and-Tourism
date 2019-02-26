@@ -137,17 +137,17 @@
 			<div id="vacation-img4"></div>
 			<div id="vacation-img5"></div>
 			<div id="vacation-img6"></div>
-			<!-- <img src="./_assets_/images/vacation3.jpg" alt="Vacation Image" id="vacation-img3">
-			<img src="./_assets_/images/vacation4.jpg" alt="Vacation Image" id="vacation-img4">
-			<img src="./_assets_/images/vacation5.jpg" alt="Vacation Image" id="vacation-img5">
-			<img src="./_assets_/images/vacation6.jpg" alt="Vacation Image" id="vacation-img6"> -->
 		</div>
 	</section><!-- /#vacation -->
 
 	<section id="news">
 		<div class="container">
-			<h2>latest news</h2>
-			<div class="news-links">
+			<div class="img-container">
+				<div id="news-img1"></div>
+				<div id="news-img2"></div>
+			</div>
+			<div id="news-links">
+				<h2>latest news</h2>
 				<a href="./" class="news-link">
 					<span>nov 12, 2018</span>
 					Lorem Etiam Consectetur Cras Pharetra Cras Dapibus
@@ -156,8 +156,8 @@
 					<span>nov 12, 2018</span>
 					Aenean lacinia bibendum nulla sed consectetur nullam Tellus
 				</a><!-- /.news-link -->
+				<a href="./" class="btn">view all news & announcements</a>
 			</div><!-- /.news-links -->
-			<a href="./" class="btn">view all news & announcements</a>
 		</div><!-- /.container -->
 	</section><!-- /#news -->
 

@@ -280,6 +280,17 @@ header .right-nav {float: right;}
 #vacation-img5 {position: absolute; top: -20px; right: 425px; width: 300px; height: 487px; background: url('../images/vacation5.jpg') center no-repeat; background-size: cover;}
 #vacation-img6 {position: absolute; top: 56px; right: 0px; width: 395px; height: 476px; background: url('../images/vacation6.jpg') center no-repeat; background-size: cover;}
 
+
+/*--------------- #news ---------------*/
+#news {background-color: #fff; height: 714px;}
+#news-links {float: right; padding: 100px 8px 0 0; width: 474px;}
+#news-links h2 {font-family: 'Prospectus-Bld'; font-size: 48px; line-height: 70px; text-transform: capitalize; margin: 0;}
+#news-links a {display: block; font-family: 'Prospectus-MSBd'; font-size: 26px; line-height: 28px; color: #008554; text-transform: capitalize; text-decoration: none; margin: 11px 2px 43px;}
+#news-links a span {display: block; font-family: 'Avenir-Roman'; font-size: 16px; line-height: 24px; color: #505559; margin-bottom: 11px;}
+#news-links .btn {font-family: 'Avenir-Heavy'; font-size: 12px; letter-spacing: 0.2em; color: #fff; text-transform: uppercase; width: 350px; line-height: 30px; position: relative; top: 15px; background-color: #008554;}
+#news-img1 {position: absolute; top: 37px; left: 189px; width: 361px; height: 403px; background: url('../images/news1.jpg') center no-repeat; background-size: cover;}
+#news-img2 {position: absolute; top: 306px; left: 330px; width: 345px; height: 287px; background: url('../images/news2.jpg') center no-repeat; background-size: cover;}
+
 /* -----------------------------------------
 
 #inner
