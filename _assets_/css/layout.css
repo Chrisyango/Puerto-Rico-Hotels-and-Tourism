@@ -417,6 +417,12 @@ footer {background-color: #0e0e0e; padding: 36px 0 28px; font-size: 13px; line-h
 #media queries
 
 -----------------------------------------*/
+@media only screen and (max-width:1440px) {
+	/*--------------- #slider ---------------*/
+	#slider {height: 900px;}
+	#slider .container {padding-left: 15px; bottom: 55px;}
+}
+
 @media only screen and (min-width:992px) {
 
 		#flyout,#nav{display:block!important}
@@ -458,6 +464,13 @@ footer {background-color: #0e0e0e; padding: 36px 0 28px; font-size: 13px; line-h
 	#flyout ul span{width:100%}
 	#flyout li:hover > ul{display:none}
 
+	/*--------------- #slider ---------------*/
+	#slider {height: 750px;}
+	#slider .container {bottom: 30px;}
+	#slider h1 {font-size: 100px; margin-bottom: 30px;}
+	#slider h4 {font-size: 24px; margin-bottom: 10px;}
+	#slider span {font-size: 14px;}
+
 }
 
 	/* All Mobile Sizes (devices and browser) */
@@ -470,13 +483,24 @@ footer {background-color: #0e0e0e; padding: 36px 0 28px; font-size: 13px; line-h
 	.share-btns a{height:auto;padding:10px;width:100%;font-size:12px;white-space:nowrap;overflow:hidden}
 	.share-btns i{display:block;line-height:50px!important;font-size:20px}
 
+	/*--------------- #slider ---------------*/
+	#slider {height: 600px;}
+	#slider .container {bottom: 15px;}
+	#slider h1 {font-size: 80px; margin-bottom: 15px;}
+	#slider h4 {margin-bottom: 5px}
+
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width:480px) and (max-width:767px) {}
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width:479px) {}
+@media only screen and (max-width:479px) {
+	/*--------------- #slider ---------------*/
+	#slider h1 {font-size: 60px;}
+	#slider h4 {font-size: 20px;}
+
+}
 
 @media print {
 	.nav-wrap,
