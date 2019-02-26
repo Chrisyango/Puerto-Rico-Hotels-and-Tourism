@@ -297,8 +297,8 @@ header .right-nav {float: right;}
 #events h2 {font-family: 'Prospectus-Bld'; font-size: 48px; line-height: 70px; text-transform: capitalize; margin: 0 0 51px;}
 
 
-/*--------------- #events ---------------*/
-#footer-links {background-color: #151515; padding: 120px 0 108px; color: #f9f8e6; text-transform: capitalize; text-align: center;}
+/*--------------- #footer-links ---------------*/
+#footer-links {background-color: #151515; padding: 120px 0 107px; color: #f9f8e6; text-transform: capitalize; text-align: center;}
 #footer-links img {display: block; margin: 0 auto;}
 #footer-links #footer-logo {width: 185px; margin: 76px auto 31px;}
 #footer-links p {margin-bottom: 5px; font-family: 'Roboto', 'sans-serif'; font-size: 13px; line-height: 15px; font-weight: 700;}
@@ -306,6 +306,18 @@ header .right-nav {float: right;}
 #footer-nav {margin: 35px 0 0;}
 #footer-nav li {display: inline-block; margin: 0 35px 0 0;}
 #footer-nav li a {font-family: 'Avenir-Heavy'; font-size: 18px; line-height: 15px; color: #e95d28; text-transform: capitalize; text-decoration: none;}
+
+
+/*--------------- #footer-links ---------------*/
+footer {background-color: #0e0e0e; padding: 36px 0 32px; font-size: 13px; line-height: 15px; color: #f9f8e6; text-transform: capitalize;}
+#footer-left {float: left;}
+#footer-left div {display: inline;}
+#footer-left div:first-of-type:after {content:'\2022';margin-left:6px;margin-right:7px}
+#footer-right {float: right;}
+#footer-right span {position: relative; border-right: 1px solid rgba(225, 228, 229, 0.1); padding: 10px; margin-right: 5px;}
+#footer-right a {font-family: 'Avenir-Roman'; font-size: 12px; line-height: 25px; text-transform: uppercase; text-decoration: none; color: #fdb532; letter-spacing: 0.05em;}
+#footer-right span a {font-family: 'Roboto', 'sans-serif'; font-weight: 700; font-size: 14px; color: #f9f8e6; text-transform: lowercase; letter-spacing: unset;}
+
 
 /* -----------------------------------------
 

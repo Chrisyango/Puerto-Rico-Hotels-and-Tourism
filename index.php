@@ -187,7 +187,7 @@
 <footer>
 	<div class="container">
 		<div id="footer-left">
-			<span>&copy; Copyright 2018 Puerto Rico Hotel & Tourism Association</span> <span>33 Resoluci&Oacute;n STE 701-B San Juan, Puerto Rico 00920-2707</span>
+			<div>&copy; Copyright 2018 Puerto Rico Hotel & Tourism Association</div> <div>33 Resoluci<span style="text-transform: lowercase;">&Oacute;</span>n STE 701-B San Juan, Puerto Rico 00920-2707</div>
 		</div><!-- /#footer-left -->
 		<div id="footer-right">
 			<span>Powered by <a href="https://www.revize.com/" id="revize-logo">revize.</a>, The Government Website Experts</span> <a href="./">login</a> 
