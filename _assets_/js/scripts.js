@@ -2,9 +2,9 @@
 
 	Theme Name: Puerto Rico, Hotels and Tourism
 	Front-end Developer: Chris Yang
-	Author Design: Samir Alley @samiralley | Tom Gooden @good3n
+	Author Design: Samir Alley
 	Author URI: http://www.revize.com/
-	Date: MONTH DAY, 2015
+	Date: February 26, 2019
 
 -----------------------------------------------------------------------------------*/
 
