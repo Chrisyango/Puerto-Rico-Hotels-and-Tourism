@@ -203,10 +203,10 @@
 			nav: true,
 			navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
 			responsive: {
-				500: {
+				0: {
 					items: quickLinkItem(1),
 				},
-				700: {
+				600: {
 					items: quickLinkItem(2),
 				},
 				900: {

@@ -289,15 +289,15 @@ header .right-nav {float: right;}
 .vacation-gallery-col:nth-of-type(5) .vacation-gallery-image{padding-bottom: 108%;}
 
 /*--------------- #news ---------------*/
-#news {background-color: #fff; margin-top: -112px; padding-bottom: 30px;}
-#news-links {float: right; padding: 100px 8px 0 0; width: 474px;}
+#news {background-color: #fff; margin-top: -21px; padding-bottom: 18px;}
+#news-links {position: relative; z-index: 50; float: right; padding: 100px 8px 0 0; width: 474px;}
 #news-links h2 {font-family: 'Prospectus-Bld'; font-size: 48px; line-height: 70px; text-transform: capitalize; margin: 0;}
 #news-links a {display: block; font-family: 'Prospectus-MSBd'; font-size: 26px; line-height: 28px; color: #008554; text-transform: capitalize; text-decoration: none; margin: 11px 2px 43px;}
 #news-links a span {display: block; font-family: 'Avenir-Roman'; font-size: 16px; line-height: 24px; color: #505559; margin-bottom: 11px;}
 #news-links .btn {font-family: 'Avenir-Heavy'; font-size: 12px; letter-spacing: 0.2em; color: #fff; text-transform: uppercase; width: 350px; line-height: 30px; position: relative; top: 15px; background-color: #008554;}
 #img-container {position: relative;}
-#news-img1 {position: relative; top: 37px; left: 14.651162790697676%; width: 27.984496124031004%; padding-bottom: 32%; background: url('../images/news1.jpg') center no-repeat; background-size: cover;}
-#news-img2 {position: relative; top: -97px; left: 25.581395348837212%; width: 26.744186046511626%; padding-bottom: 22%; background: url('../images/news2.jpg') center no-repeat; background-size: cover;}
+#news-img1 {position: relative; margin-top: 2.2%; left: 14.651162790697676%; width: 27.984496124031004%; padding-bottom: 32%; background: url('../images/news1.jpg') center no-repeat; background-size: cover;}
+#news-img2 {position: relative; margin-top: -10.45%; left: 25.581395348837212%; width: 26.744186046511626%; padding-bottom: 22%; background: url('../images/news2.jpg') center no-repeat; background-size: cover;}
 
 
 /*--------------- #events ---------------*/
@@ -422,6 +422,10 @@ footer {background-color: #0e0e0e; padding: 36px 0 28px; font-size: 13px; line-h
 @media only screen and (max-width:1280px) {
 	/*--------------- #nav ---------------*/
 	#nav li a {padding: 31px 15px;}
+
+	/*--------------- #news ---------------*/
+	#news-img1 {left: 8.651162790697676%;}
+	#news-img2 {left: 19.581395348837212%;}
 }
 
 @media only screen and (max-width:1024px) {
@@ -493,15 +497,29 @@ footer {background-color: #0e0e0e; padding: 36px 0 28px; font-size: 13px; line-h
 	#slider .container {bottom: 30px;}
 	#slider h1 {font-size: 100px; margin-bottom: 30px;}
 	#slider h4 {font-size: 24px; margin-bottom: 10px;}
-	#slider span {font-size: 14px;}
+	#slider span {font-size: 14px; width: unset;}
+
+	/*--------------- #quick-links ---------------*/
+	#quick-links {padding: 30px 0;}
 
 	/*--------------- #vacation ---------------*/
-	#vacation {padding: 42px 0;}
+	#vacation {padding: 30px 0;}
 	#vacation h2 {font-size: 38px;}
-	#vacation p {font-size: 14px;}
-	#vacation-content {float: none;}
-	#vacation .btn {width: 130px; line-height: 20px; font-size: 11px; margin-top: 15px; float: none;}
+	#vacation p {font-size: 14px; width: 450px;}
 	#vacation-gallery {margin-top: 50px;}
+
+	/*--------------- #news ---------------*/
+	#news {padding-bottom: 30px;}
+	#news-links {float: none; width: unset; padding: 30px 0 0;}
+	#news-links h2 {font-size: 38px;}
+	#news-links a {font-size: 22px;}
+	#news-links a span {font-size: 14px;}
+	#news-img1 {left: 28.651162790697676%;}
+	#news-img2 {left: 39.581395348837212%;}
+
+	/*--------------- #events ---------------*/
+	#events {padding: 30px 0;}
+	#events h2 {font-size: 38px; margin-bottom: 30px;}
 
 }
 
@@ -521,6 +539,13 @@ footer {background-color: #0e0e0e; padding: 36px 0 28px; font-size: 13px; line-h
 	#slider h1 {font-size: 80px; margin-bottom: 15px;}
 	#slider h4 {margin-bottom: 5px}
 
+	/*--------------- #vacation ---------------*/
+	#vacation-content {float: none;}
+	#vacation p {width: unset;}
+	#vacation .btn {width: 130px; line-height: 20px; font-size: 11px; margin-top: 15px; float: none;}
+
+	/*--------------- #news ---------------*/
+	#news-links .btn {top: 0; width: 300px; line-height: 20px; font-size: 11px;}
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
@@ -532,8 +557,7 @@ footer {background-color: #0e0e0e; padding: 36px 0 28px; font-size: 13px; line-h
 	#header .logo {margin-left: 0;}
 
 	/*--------------- #slider ---------------*/
-	#slider h1 {font-size: 60px;}
-	#slider h4 {font-size: 20px;}
+	#slider h1 {font-size: 65px;}
 
 }
 
