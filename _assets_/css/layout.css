@@ -14,10 +14,6 @@
 
 -----------------------------------------*/
 @font-face {
-	font-family: 'Avenir-Black';
-	src: url(../fonts/Avenir/Avenir-Black.otf);
-}
-@font-face {
 	font-family: 'Avenir-Heavy';
 	src: url(../fonts/Avenir/Avenir-Heavy.otf);
 }
@@ -126,7 +122,7 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"],
-.btn{padding:10px 20px;background:#008554;color:#fff!important;border:0;border-radius:0;display:inline-block;font-size:12px;font-weight:900!important;text-decoration:none;cursor:pointer;line-height:normal;vertical-align:top;font-family:sans-serif;text-transform:uppercase;transition:background .3s}
+.btn{padding:10px 20px;background:#008554;color:#fff!important;border:0;border-radius:0;display:inline-block;font-size:12px;font-weight:900!important;text-decoration:none;cursor:pointer;line-height:normal;vertical-align:top;font-family:'Avenir-Heavy', 'sans-serif';text-transform:uppercase;transition:background .3s;letter-spacing: 0.2em}
 .button:hover,
 a.button:hover,
 button:hover,
@@ -268,11 +264,11 @@ header .right-nav {float: right;}
 #quick-links .owl-next {left: unset; right: -15px;}
 
 /*--------------- #vacation ---------------*/
-#vacation {background-color: #fff; padding: 102px 0;}
+#vacation {background-color: #fff; padding: 106px 0 11px;}
 #vacation-content {float: left;}
-#vacation h2 {font-family: 'Prospectus-Bold'; font-size: 48px; text-transform: capitalize; margin: 0; padding: 0;}
-#vacation p {font-size: 16px; line-height: 24px; width: 285px; margin: 10px 0 0;}
-#vacation .btn {font-family: 'Avenir-Heavy'; font-size: 12px; background-color: #008554; float: right; width: 150px; line-height: 30px; margin-top: 18px; letter-spacing: 0.2em;}
+#vacation h2 {font-family: 'Prospectus-Bld'; font-size: 48px; text-transform: capitalize; margin: 0; padding: 0;}
+#vacation p {font-size: 16px; line-height: 24px; width: 285px; margin: 6px 0 0;}
+#vacation .btn {font-family: 'Avenir-Heavy'; font-size: 12px; background-color: #008554; float: right; width: 150px; line-height: 30px; margin-top: 14px; letter-spacing: 0.2em;}
 #vacation-gallery {position: relative; top: -91px;}
 .vacation-gallery-col{float:left;margin-right:1.338235294117645%;position:relative}
 .vacation-gallery-col:first-of-type{width:9.352941176470589%;top:204px;}
@@ -302,6 +298,7 @@ header .right-nav {float: right;}
 /*--------------- #events ---------------*/
 #events {padding: 104px 0 120px; text-align: center;}
 #events h2 {font-family: 'Prospectus-Bld'; font-size: 48px; line-height: 70px; text-transform: capitalize; margin: 0 0 51px;}
+#events .btn {margin-top: 29px; line-height: 30px; width: 200px;}
 
 
 /*--------------- #footer-links ---------------*/

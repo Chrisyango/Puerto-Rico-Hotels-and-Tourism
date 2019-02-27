@@ -189,6 +189,7 @@
 		<div class="container">
 			<h2>latest events</h2>
 			<img src="./_assets_/images/events.png" alt="Events Image">
+			<a href="./" class="btn">view all events</a>
 		</div><!-- /.container -->
 	</section><!-- /#events -->
 
