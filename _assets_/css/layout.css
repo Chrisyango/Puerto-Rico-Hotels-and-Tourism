@@ -200,7 +200,7 @@ form.loginform label input{display:block;margin-bottom:10px;width:100%;box-sizin
 
 -----------------------------------------*/
 .floating-alert{position:fixed;z-index:99999;bottom:10px;margin:0;right:10px;border:3px solid #fff;background:#000;background:rgba(0,0,0,.9);box-shadow:0 0 10px rgba(0,0,0,.2);color:#fff;padding:30px;font-size:14px;width:350px;}
-.floating-alert h1{color:#ffc140;margin:0 0 10px;font-family:sans-serif;font-weight:bold;text-transform:uppercase;font-size:18px}
+.floating-alert h4{color:#ffc140;margin:0 0 10px;font-family:sans-serif;font-weight:bold;text-transform:uppercase;font-size:18px}
 .floating-alert .btn{padding:8px 10px;margin:20px 0 0 0!important}
 .floating-alert .close{padding:0;background:none!important;color:#fff!important;opacity:1;margin-right:20px}
 
@@ -225,8 +225,8 @@ main {margin-top: -90px; background-color: #f7fbfa;}
 
 
 /*--------------- #nav ---------------*/
-#nav>li>ul li{display:inline-block;width:100%}
-#nav>li>ul li a{display:block}
+#nav>li>ul{display:none}
+#nav>li>ul li{display:inline-block;width:100%;left:0}
 #search {display: none; position: absolute; right: 0; top: calc(100% + 15px);}
 #search label {position: absolute; top: 10px; left: 10px}
 #search input {width: 350px; padding: 10px 70px 10px 30px; border-radius: 4px;}
@@ -243,8 +243,6 @@ header .right-nav {float: right;}
 #nav {font-size: 0; margin: 0; padding: 0;}
 #nav li {position: relative; left: 151px; display: inline-block; margin: 0; padding: 0;}
 #nav li a {position: relative; display: inline-block; font-family: 'Avenir-Heavy'; font-size: 16px; line-height: 28px; color: #848484; text-transform: capitalize; text-decoration: none; padding: 31px 21px;}
-#nav li a:hover {color: #262626; background-color: #efefef;}
-#nav li a:hover:before {content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 3px; background-color: #e95d28;}
 
 #calendarEvent{left:0px;max-height:500px;overflow-y:auto;margin:0 auto}
 
@@ -275,17 +273,18 @@ header .right-nav {float: right;}
 #vacation h2 {font-family: 'Prospectus-Bold'; font-size: 48px; text-transform: capitalize; margin: 0; padding: 0;}
 #vacation p {font-size: 16px; line-height: 24px; width: 285px; margin: 10px 0 0;}
 #vacation .btn {font-family: 'Avenir-Heavy'; font-size: 12px; background-color: #008554; float: right; width: 150px; line-height: 30px; margin-top: 18px; letter-spacing: 0.2em;}
+#vacation-gallery {position: relative; top: 50px;}
 .vacation-gallery-col{float:left;margin-right:1.338235294117645%;position:relative}
-.vacation-gallery-col:first-of-type{width:9.352941176470589%;margin-top: 6.65%;}
+.vacation-gallery-col:first-of-type{width:9.352941176470589%;top:63px;}
 .vacation-gallery-col:first-of-type .vacation-gallery-image{padding-bottom:232%}
-.vacation-gallery-col:nth-of-type(2){width:24.11764705882353%;margin-top:3.6%;}
+.vacation-gallery-col:nth-of-type(2){width:24.11764705882353%;top:11px;}
 .vacation-gallery-col:nth-of-type(2) .vacation-gallery-image{padding-bottom: 115%;}
-.vacation-gallery-col:nth-of-type(3){width:17.647058823529413%;margin-top: -5.35%;}
+.vacation-gallery-col:nth-of-type(3){width:17.647058823529413%;top: -141px;}
 .vacation-gallery-col:nth-of-type(3) .vacation-gallery-image:first-of-type{padding-bottom: 143%;}
-.vacation-gallery-col:nth-of-type(3) .vacation-gallery-image:last-of-type{margin-top: 10.5%;padding-bottom: 70%;}
-.vacation-gallery-col:nth-of-type(4){width:17.647058823529413%; margin-top: -1.2%;}
+.vacation-gallery-col:nth-of-type(3) .vacation-gallery-image:last-of-type{margin-top:32px;padding-bottom: 70%;}
+.vacation-gallery-col:nth-of-type(4){width:17.647058823529413%; top: -70px;}
 .vacation-gallery-col:nth-of-type(4) .vacation-gallery-image{padding-bottom: 162%;}
-.vacation-gallery-col:nth-of-type(5){width:25.882352941176475%;margin:0; margin-top: 3.3%;}
+.vacation-gallery-col:nth-of-type(5){width:25.882352941176475%;margin:0; top: 6px;}
 .vacation-gallery-col:nth-of-type(5) .vacation-gallery-image{padding-bottom: 108%;}
 
 /*--------------- #news ---------------*/
@@ -296,8 +295,8 @@ header .right-nav {float: right;}
 #news-links a span {display: block; font-family: 'Avenir-Roman'; font-size: 16px; line-height: 24px; color: #505559; margin-bottom: 11px;}
 #news-links .btn {font-family: 'Avenir-Heavy'; font-size: 12px; letter-spacing: 0.2em; color: #fff; text-transform: uppercase; width: 350px; line-height: 30px; position: relative; top: 15px; background-color: #008554;}
 #img-container {position: relative;}
-#news-img1 {position: relative; margin-top: 2.2%; left: 14.651162790697676%; width: 27.984496124031004%; padding-bottom: 32%; background: url('../images/news1.jpg') center no-repeat; background-size: cover;}
-#news-img2 {position: relative; margin-top: -10.45%; left: 25.581395348837212%; width: 26.744186046511626%; padding-bottom: 22%; background: url('../images/news2.jpg') center no-repeat; background-size: cover;}
+#news-img1 {position: relative; margin-top: 2.2%; left: 14.651162790697676%; width: 27.984496124031004%; padding-bottom: 32%;}
+#news-img2 {position: relative; margin-top: -10.45%; left: 25.581395348837212%; width: 26.744186046511626%; padding-bottom: 22%;}
 
 
 /*--------------- #events ---------------*/
@@ -307,7 +306,7 @@ header .right-nav {float: right;}
 
 /*--------------- #footer-links ---------------*/
 #footer-links {background-color: #151515; padding: 120px 0 107px; color: #f9f8e6; text-transform: capitalize; text-align: center;}
-#footer-links img {display: block; margin: 0 auto; padding: 0 15px;}
+#footer-links img {display: inline-block; margin: 0 auto; padding: 0 15px;}
 #footer-links #footer-logo {width: 215px; margin: 76px auto 31px;}
 #footer-links p {margin-bottom: 5px; font-family: 'Roboto', 'sans-serif'; font-size: 13px; line-height: 15px; font-weight: 700;}
 #footer-links p span {color: #e95d28; margin-right: 7px;}
@@ -336,17 +335,18 @@ footer {background-color: #0e0e0e; padding: 36px 0 38px; font-size: 13px; line-h
 /*--------------- #flyout ---------------*/
 #freeform main {background-color: #fff;}
 
-#flyout{margin:0;padding:75px 51px; position: relative; top: -177px; z-index: 100; background-color: #fff; box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.1);}
+#flyout-wrap{margin:0;padding:75px 51px 95px; position: relative; top: -177px; z-index: 100; background-color: #fff; box-shadow: 0px 2px 10px 2px rgba(0,0,0,0.1);}
+#flyout {margin: 0; padding: 0;}
 #flyout:before {content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 3px; background-color: #e95d28;}
 #side-content {padding-right: 79px;}
 #flyout li{margin:0;display:block;position:relative}
 #flyout a,
 #flyout span{font-size: 16px; color: #e95d28; text-transform: capitalize; text-decoration:none;padding:10px 45px 9px 0;display:block;border-bottom:1px solid rgba(0,0,0,.1);}
-#flyout ul{display:none;position:absolute;top:0;left:100%;margin:0;padding:0;background:#aaa}
+#flyout ul{display:none;position:absolute;top:0;left:100%;margin:0;padding:0;background:#e95d28}
 #flyout ul a,
-#flyout ul span{font-size:13px;padding:10px 15px;width:180px}
+#flyout ul span{font-size:13px;padding:10px 15px;width:180px;color:#fff;}
 #flyout li:hover > ul{display:block}
-#flyout-header.header {font-family: 'Prospectus-Bld'; font-size: 35px; line-height: 40px; color: #262626; margin: 0; padding: 0 0 31px;}
+#flyout-header {font-family: 'Prospectus-Bld'; font-size: 35px; line-height: 40px; color: #262626; margin: 0; padding: 0 0 31px; text-transform: capitalize; display: block; border-bottom: 1px solid rgba(0,0,0,.1);}
 
 /*--------------- #slider ---------------*/
 #freeform #slider {height: 515px;}
@@ -439,6 +439,7 @@ footer {background-color: #0e0e0e; padding: 36px 0 38px; font-size: 13px; line-h
 @media only screen and (max-width:1280px) {
 	/*--------------- #nav ---------------*/
 	#nav li a {padding: 31px 15px;}
+	#search {right: 15px;}
 
 	/*--------------- #news ---------------*/
 	#news-img1 {left: 8.651162790697676%;}
@@ -462,16 +463,14 @@ footer {background-color: #0e0e0e; padding: 36px 0 38px; font-size: 13px; line-h
 
 @media only screen and (min-width:992px) {
 	/*--------------- #nav ---------------*/
-	#nav>li>ul {
-		-moz-column-count: 4;
-		-moz-column-gap: 40px;
-		-webkit-column-count: 4;
-		-webkit-column-gap: 40px;
-		column-count: 4;
-		column-gap: 40px;
-		padding:40px
-	}
+	#nav>li>ul li a{display:block;padding:10px 15px;}
+	#nav>li>ul {position: absolute;padding: 0;margin:0;background-color:#fff}
+	#nav>li:hover ul {display: block;}
+	#nav li a:hover {color: #262626; background-color: #efefef;}
+	#nav li a:hover:before {content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 3px; background-color: #e95d28;}
+	#nav i {display: none;}
 	#flyout,#nav{display:block!important}
+	.toggle-children,
 	#flyout-toggle {display: none;}
 	#search-toggle {display: block;}
 
@@ -490,7 +489,7 @@ footer {background-color: #0e0e0e; padding: 36px 0 38px; font-size: 13px; line-h
 
 	/*--------------- #nav ---------------*/
 	#toggles {float: right;}
-	#search {width: calc(100% - 30px); right: 15px;}
+	#search {width: calc(100% - 30px);}
 	#search input {width: 100%;}
 	#search-toggle-mobile,
 	#nav-toggle {line-height:45px;width:45px;text-align:center;border:1px solid rgba(0,0,0,.15);cursor:pointer;font-size:20px;color:#000;border-radius:4px;margin-left:5px;margin-top:20px}
@@ -503,7 +502,7 @@ footer {background-color: #0e0e0e; padding: 36px 0 38px; font-size: 13px; line-h
 	#nav li{float:none;display:block; left: 0;}
 	#nav li a,
 	#nav li span{position: relative; padding:15px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px; width: 100%; color:#fff;}
-	#nav ul{position:static;top:0;padding:0;background:rgba(0,0,0,.2)}
+	#nav ul{position:static;top:0;padding:0;margin:0;background:rgba(0,0,0,.2)}
 	#nav li:hover > ul{display:none}
 	#nav ul a,
 	#nav ul span{width:100%}
@@ -516,14 +515,14 @@ footer {background-color: #0e0e0e; padding: 36px 0 38px; font-size: 13px; line-h
 
 	/*--------------- #flyout ---------------*/
 	#side-content {padding: 0;}
-	#flyout-toggle {font-size: 18px; padding: 30px 0;}
-	#flyout{display:none; top: 0; margin: 0 0 30px; padding: 30px 0 0;}
-	#flyout li{}
+	#flyout-toggle {font-family: 'Prospectus-Bld'; font-size: 18px; padding: 0 15px 30px;}
+	#flyout-wrap {top: 0; margin: 0 0 30px; padding: 30px 0 0;}
+	#flyout{display:none;}
 	#flyout li a,
 	#flyout li span{position: relative; padding:15px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px;}
-	.toggle-children {position:absolute;right:0;top:0;background:rgba(0,0,0,.2);height:44px;width:44px;line-height:44px;font-size:24px;text-align:center}
-	#flyout-header.header {padding-left: 15px;}
-	#flyout ul{position:static;left:0;padding:0;background:rgba(0,0,0,.2)}
+	.toggle-children {position:absolute;right:0;top:0;background:#e95d28;height:44px;width:44px;line-height:44px;font-size:24px;text-align:center;color:#fff}
+	#flyout-header {display: none;}
+	#flyout ul{position:static;left:0;padding:0;}
 	#flyout ul a,
 	#flyout ul span{width:100%}
 	#flyout li:hover > ul{display:none}
@@ -545,7 +544,7 @@ footer {background-color: #0e0e0e; padding: 36px 0 38px; font-size: 13px; line-h
 	/*--------------- #vacation ---------------*/
 	#vacation {padding: 30px 0;}
 	#vacation h2 {font-size: 38px;}
-	#vacation p {font-size: 14px; width: 450px;}
+	#vacation p {font-size: 14px;}
 	#vacation-gallery {margin-top: 50px;}
 
 	/*--------------- #news ---------------*/
@@ -574,7 +573,7 @@ footer {background-color: #0e0e0e; padding: 36px 0 38px; font-size: 13px; line-h
 
 	.floating-alert{width:auto;right:0;left:0;border:0;bottom:0;border-radius:0;padding-left:15px;padding-right:15px}
 	.floating-alert{font-size:12px}
-	.floating-alert h1{margin-bottom:10px;font-size:14px}
+	.floating-alert h4{margin-bottom:10px;font-size:14px}
 	.floating-alert .btn{font-size:10px;padding:7px 12px!important}
 	.share-btns a{height:auto;padding:10px;width:100%;font-size:12px;white-space:nowrap;overflow:hidden}
 	.share-btns i{display:block;line-height:50px!important;font-size:20px}

@@ -36,7 +36,7 @@
 </head>
 <body id="homepage">
 
-<header class="clearfix">
+<header>
 	<div class="container">
 		<div id="toggles" class="hidden-lg hidden-md">
 			<label for="search-input" id="search-toggle-mobile" class="fa fa-search"></label>
@@ -77,7 +77,15 @@
 			<ul id="nav">
 				<li><a href="./">home page</a></li>
 				<li><a href="./">about us</a></li>
-				<li><a href="./">member</a></li>
+				<li>
+					<a href="./">member</a>
+					<ul>
+						<li><a href="./">This is a link</a></li>
+						<li><a href="./">This is a link</a></li>
+						<li><a href="./">This is a link</a></li>
+						<li><a href="./">This is a link</a></li>
+					</ul>
+				</li>
 				<li><a href="./">publications</a></li>
 			</ul> <!-- /#nav -->
 		</nav>
@@ -171,8 +179,8 @@
 				<a href="./" class="btn">view all news & announcements</a>
 			</div><!-- /.news-links -->
 			<div id="img-container" class="clearfix">
-				<div id="news-img1"></div>
-				<div id="news-img2"></div>
+				<div id="news-img1" style="background: url('../images/news1.jpg') center no-repeat; background-size: cover;"></div>
+				<div id="news-img2" style="background: url('../images/news2.jpg') center no-repeat; background-size: cover;"></div>
 			</div>
 		</div><!-- /.container -->
 	</section><!-- /#news -->
@@ -185,7 +193,7 @@
 	</section><!-- /#events -->
 
 	<section id="footer-links">
-		<img src="./_assets_/images/banner.jpg" alt="Banner" id="banner">
+		<a href="./"><img src="./_assets_/images/banner.jpg" alt="Banner" id="banner"></a>
 		<div id="contact">
 			<a href="./"><img src="./_assets_/images/footer-logo.png" alt="Logo" id="footer-logo"></a>
 			<p><span>phone</span> (787) 758-8001</p>
@@ -213,7 +221,7 @@
 
 <div class="alert alert-dismissible floating-alert fade in os-animation" data-os-animation="fadeInUpBig" data-os-animation-delay="2s" role="alert">
 	<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-	<h1>Alert Title 30 characters Max</h1>
+	<h4>Alert Title 30 characters Max</h4>
 	<p>Max 120 characters Max 120 characters Max 120 characters Max 120 characters Max 120 characters Max 120 characters Max 120</p>
 	<p><a href="#" class="btn">Read More</a></p>
 </div><!-- /.alert -->

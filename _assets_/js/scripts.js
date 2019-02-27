@@ -127,7 +127,7 @@
 		flyoutwrap = $('#flyout-wrap');
 
 	if (flyout.text().length){
-		flyoutwrap.prepend('<div id="flyout-toggle"><i class="fa fa-bars"></i> Sub Menu</div>');
+		flyoutwrap.prepend('<div id="flyout-toggle"><i class="fa fa-bars"></i> Related Pages</div>');
 	}
 
 	$("#flyout-toggle").on("click", function(){

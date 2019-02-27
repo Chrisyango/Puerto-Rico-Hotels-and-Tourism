@@ -29,7 +29,7 @@
 </head>
 <body id="freeform">
 
-<header class="clearfix">
+<header>
 	<div class="container">
 		<div id="toggles" class="hidden-lg hidden-md">
 			<label for="search-input" id="search-toggle-mobile" class="fa fa-search"></label>
@@ -93,8 +93,8 @@
 			<div class="col-md-4">
 				<aside id="side-content">
 					<div id="flyout-wrap">
+						<span id="flyout-header">related pages</span>
 						<ul id="flyout">
-							<span id="flyout-header" class="header">related pages</span>
 							<li><a href="./">bibendum fermentum ultricies euismod</a></li>
 							<li><a href="./">amet commodo sit</a></li>
 							<li>

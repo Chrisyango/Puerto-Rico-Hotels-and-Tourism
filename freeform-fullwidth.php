@@ -29,7 +29,7 @@
 </head>
 <body id="freeform" class="fullwidth">
 
-<header class="clearfix">
+<header>
 	<div class="container">
 		<div id="toggles" class="hidden-lg hidden-md">
 			<label for="search-input" id="search-toggle-mobile" class="fa fa-search"></label>
