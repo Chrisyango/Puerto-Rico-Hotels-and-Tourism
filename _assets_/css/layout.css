@@ -359,8 +359,8 @@ footer {background-color: #0e0e0e; padding: 36px 0 38px; font-size: 13px; line-h
 #breadcrumbs a:after {font-family: 'FontAwesome'; content: '\f105'; color: #262626; margin: 0 6px;}
 #breadcrumbs i{font-size:13px;margin:0 4px}
 
-#entry {padding: 68px 0;}
-#entry h1 {font-family: 'Prospectus-Bld'; font-size: 60px; line-height: 30px; margin: 0; text-transform: capitalize;}
+#entry h1 {font-family: 'Prospectus-Bld'; font-size: 60px; line-height: 30px; margin: 0 0 50px;; text-transform: capitalize;}
+#post p {font-size: 16px; line-height: 26px; margin-bottom: 26px;}
 
 /* -----------------------------------------
 
@@ -448,6 +448,9 @@ footer {background-color: #0e0e0e; padding: 36px 0 38px; font-size: 13px; line-h
 	#footer-right {float: none;}
 	#footer-right {margin-top: 15px;}
 	#footer-right span {padding-left: 0;}
+
+	/*--------------- #entry ---------------*/
+	#entry h1 {font-size: 48px;}
 }
 
 @media only screen and (max-width:1024px) {
@@ -471,6 +474,8 @@ footer {background-color: #0e0e0e; padding: 36px 0 38px; font-size: 13px; line-h
 	#flyout-toggle {display: none;}
 	#search-toggle {display: block;}
 
+	/*--------------- #entry ---------------*/
+	#entry {padding: 68px 0;}
 }
 
 @media only screen and (max-width:991px) {
@@ -503,17 +508,26 @@ footer {background-color: #0e0e0e; padding: 36px 0 38px; font-size: 13px; line-h
 	#nav ul span{width:100%}
 	#nav ul ul{left:0}
 	#nav .toggle,
-	#nav .toggle2{position:absolute;right:0;top:0;background:rgba(0,0,0,.2);height:55px;width:55px;line-height:55px;text-align:center}
+	#nav .toggle2{position:absolute;right:0;top:0;background:rgba(0,0,0,.2);height:44px;width:44px;line-height:44px;font-size:24px;text-align:center}
 	#nav li li:hover > a{background:none;color:#fff}
 
-	#flyout{display:none}
+	/*--------------- #flyout ---------------*/
+	#side-content {padding: 0;}
+	#flyout-toggle {font-size: 18px; padding: 30px 0;}
+	#flyout{display:none; top: 0; margin: 0 0 30px; padding: 30px 0 0;}
 	#flyout li{}
 	#flyout li a,
-	#flyout li span{padding:20px 30px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px}
+	#flyout li span{position: relative; padding:15px;line-height:1;border-bottom:1px solid rgba(0,0,0,.2);background:none;font-size:14px;}
+	.toggle-children {position:absolute;right:0;top:0;background:rgba(0,0,0,.2);height:44px;width:44px;line-height:44px;font-size:24px;text-align:center}
+	#flyout-header.header {padding-left: 15px;}
 	#flyout ul{position:static;left:0;padding:0;background:rgba(0,0,0,.2)}
 	#flyout ul a,
 	#flyout ul span{width:100%}
 	#flyout li:hover > ul{display:none}
+
+	/*--------------- #entry ---------------*/
+	#entry h1 {font-size: 38px; line-height: 38px; margin-bottom: 30px;}
+	#post p {font-size: 14px;}
 
 	/*--------------- #slider ---------------*/
 	#slider {height: 750px;}
