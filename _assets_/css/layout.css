@@ -435,6 +435,7 @@ footer {background-color:#0e0e0e;padding:36px 0 38px;font-size:13px;line-height:
 
 @media only screen and (max-width:1280px) {
 	/*--------------- #nav ---------------*/
+	header .logo {margin-left:0}
 	#nav li a {padding:31px 15px}
 	#search {right:15px}
 
@@ -610,9 +611,6 @@ footer {background-color:#0e0e0e;padding:36px 0 38px;font-size:13px;line-height:
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width:479px) {
-	/*--------------- #nav ---------------*/
-	header .logo {margin-left:0}
-
 	/*--------------- #slider ---------------*/
 	#slider h1 {font-size:65px}
 
