@@ -230,7 +230,7 @@ main {margin-top: -90px; background-color: #f7fbfa;}
 #search {display: none; position: absolute; right: 0; top: calc(100% + 15px);}
 #search label {position: absolute; top: 10px; left: 10px}
 #search input {width: 350px; padding: 10px 70px 10px 30px; border-radius: 4px;}
-#search button {position: absolute; top: 0; right: 0; line-height: 14px; width: 60px; background-color: #008554; border-radius: 0 4px 4px 0;}
+#search button {position: absolute; top: 0; right: 0; line-height: 14px; width: 60px; background-color: #e95d28; border-radius: 0 4px 4px 0;}
 
 header>.container {background-color: #fff; position: relative; z-index: 100; width: 1290px;}
 header .logo {float: left; width: 221px; padding: 5px 0 12px; margin-left: 21px;}
@@ -271,20 +271,21 @@ header .right-nav {float: right;}
 
 /*--------------- #vacation ---------------*/
 #vacation {background-color: #fff; padding: 102px 0;}
+#vacation-content {float: left;}
 #vacation h2 {font-family: 'Prospectus-Bold'; font-size: 48px; text-transform: capitalize; margin: 0; padding: 0;}
 #vacation p {font-size: 16px; line-height: 24px; width: 285px; margin: 10px 0 0;}
 #vacation .btn {font-family: 'Avenir-Heavy'; font-size: 12px; background-color: #008554; float: right; width: 150px; line-height: 30px; margin-top: 18px; letter-spacing: 0.2em;}
 .vacation-gallery-col{float:left;margin-right:1.338235294117645%;position:relative}
-.vacation-gallery-col:first-of-type{width:9.352941176470589%;top:113px}
+.vacation-gallery-col:first-of-type{width:9.352941176470589%;margin-top: 6.65%;}
 .vacation-gallery-col:first-of-type .vacation-gallery-image{padding-bottom:232%}
-.vacation-gallery-col:nth-of-type(2){width:24.11764705882353%;top:61px;}
+.vacation-gallery-col:nth-of-type(2){width:24.11764705882353%;margin-top:3.6%;}
 .vacation-gallery-col:nth-of-type(2) .vacation-gallery-image{padding-bottom: 115%;}
-.vacation-gallery-col:nth-of-type(3){width:17.647058823529413%;top:-91px;}
+.vacation-gallery-col:nth-of-type(3){width:17.647058823529413%;margin-top: -5.35%;}
 .vacation-gallery-col:nth-of-type(3) .vacation-gallery-image:first-of-type{padding-bottom: 143%;}
-.vacation-gallery-col:nth-of-type(3) .vacation-gallery-image:last-of-type{margin-top: 32px;padding-bottom: 70%;}
-.vacation-gallery-col:nth-of-type(4){width:17.647058823529413%; top: -20px}
+.vacation-gallery-col:nth-of-type(3) .vacation-gallery-image:last-of-type{margin-top: 10.5%;padding-bottom: 70%;}
+.vacation-gallery-col:nth-of-type(4){width:17.647058823529413%; margin-top: -1.2%;}
 .vacation-gallery-col:nth-of-type(4) .vacation-gallery-image{padding-bottom: 162%;}
-.vacation-gallery-col:nth-of-type(5){width:25.882352941176475%;margin:0; top: 56px;}
+.vacation-gallery-col:nth-of-type(5){width:25.882352941176475%;margin:0; margin-top: 3.3%;}
 .vacation-gallery-col:nth-of-type(5) .vacation-gallery-image{padding-bottom: 108%;}
 
 /*--------------- #news ---------------*/
@@ -370,7 +371,7 @@ footer {background-color: #0e0e0e; padding: 36px 0 28px; font-size: 13px; line-h
 .btn-google:hover{border-color:#D34836}
 .btn-reddit:hover{border-color:#ff5700}
 .btn-lg{font-size:16px;padding:14px 30px;border:0;border-radius:3px}
-.floating-share-btn{position:fixed;z-index:99999;top:40%;right:0;line-height:1.8;border-radius:0;border:0;background:#008554!important;color:#fff!important;padding:10px;box-shadow:0 0 10px rgba(0,0,0,.3);text-align:center}
+.floating-share-btn{position:fixed;z-index:99999;top:40%;right:0;line-height:1.8;border-radius:0;border:0;background:#e95d28!important;color:#fff!important;padding:10px;box-shadow:0 0 10px rgba(0,0,0,.3);text-align:center}
 .floating-share-btn span {display:block}
 
 /* -----------------------------------------
@@ -456,7 +457,7 @@ footer {background-color: #0e0e0e; padding: 36px 0 28px; font-size: 13px; line-h
 
 	/*--------------- #nav ---------------*/
 	#toggles {float: right;}
-	#search {width: 100%;}
+	#search {width: calc(100% - 30px); right: 15px;}
 	#search input {width: 100%;}
 	#search-toggle-mobile,
 	#nav-toggle {line-height:45px;width:45px;text-align:center;border:1px solid rgba(0,0,0,.15);cursor:pointer;font-size:20px;color:#000;border-radius:4px;margin-left:5px;margin-top:20px}
@@ -493,6 +494,14 @@ footer {background-color: #0e0e0e; padding: 36px 0 28px; font-size: 13px; line-h
 	#slider h1 {font-size: 100px; margin-bottom: 30px;}
 	#slider h4 {font-size: 24px; margin-bottom: 10px;}
 	#slider span {font-size: 14px;}
+
+	/*--------------- #vacation ---------------*/
+	#vacation {padding: 42px 0;}
+	#vacation h2 {font-size: 38px;}
+	#vacation p {font-size: 14px;}
+	#vacation-content {float: none;}
+	#vacation .btn {width: 130px; line-height: 20px; font-size: 11px; margin-top: 15px; float: none;}
+	#vacation-gallery {margin-top: 50px;}
 
 }
 

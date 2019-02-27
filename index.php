@@ -130,9 +130,11 @@
 
 	<section id="vacation">
 		<div class="container">
+			<div id="vacation-content">
+				<h2>plan your vacation</h2>
+				<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+			</div>
 			<a href="./" class="btn">learn more</a>
-			<h2>plan your vacation</h2>
-			<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
 		</div><!-- /.container -->
 		<div id="vacation-gallery" class="clearfix">
 			<div class="vacation-gallery-col"> 
