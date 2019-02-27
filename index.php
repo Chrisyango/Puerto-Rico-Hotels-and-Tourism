@@ -187,7 +187,7 @@
 	<section id="footer-links">
 		<img src="./_assets_/images/banner.jpg" alt="Banner" id="banner">
 		<div id="contact">
-			<img src="./_assets_/images/footer-logo.png" alt="Logo" id="footer-logo">
+			<a href="./"><img src="./_assets_/images/footer-logo.png" alt="Logo" id="footer-logo"></a>
 			<p><span>phone</span> (787) 758-8001</p>
 			<p><span>fax</span> (787) 758-8091</p>
 		</div><!-- /#contact -->

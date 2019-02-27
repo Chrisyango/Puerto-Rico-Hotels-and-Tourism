@@ -289,7 +289,7 @@ header .right-nav {float: right;}
 .vacation-gallery-col:nth-of-type(5) .vacation-gallery-image{padding-bottom: 108%;}
 
 /*--------------- #news ---------------*/
-#news {background-color: #fff; margin-top: -21px; padding-bottom: 18px;}
+#news {background-color: #fff; margin-top: -21px; padding-bottom: 124px;}
 #news-links {position: relative; z-index: 50; float: right; padding: 100px 8px 0 0; width: 474px;}
 #news-links h2 {font-family: 'Prospectus-Bld'; font-size: 48px; line-height: 70px; text-transform: capitalize; margin: 0;}
 #news-links a {display: block; font-family: 'Prospectus-MSBd'; font-size: 26px; line-height: 28px; color: #008554; text-transform: capitalize; text-decoration: none; margin: 11px 2px 43px;}
@@ -307,23 +307,23 @@ header .right-nav {float: right;}
 
 /*--------------- #footer-links ---------------*/
 #footer-links {background-color: #151515; padding: 120px 0 107px; color: #f9f8e6; text-transform: capitalize; text-align: center;}
-#footer-links img {display: block; margin: 0 auto;}
-#footer-links #footer-logo {width: 185px; margin: 76px auto 31px;}
+#footer-links img {display: block; margin: 0 auto; padding: 0 15px;}
+#footer-links #footer-logo {width: 215px; margin: 76px auto 31px;}
 #footer-links p {margin-bottom: 5px; font-family: 'Roboto', 'sans-serif'; font-size: 13px; line-height: 15px; font-weight: 700;}
 #footer-links p span {color: #e95d28; margin-right: 7px;}
-#footer-nav {margin: 35px 0 0;}
-#footer-nav li {display: inline-block; margin: 0 35px 0 0;}
+#footer-nav {margin: 35px 0 0; padding: 0;}
+#footer-nav li {display: inline-block; margin: 0 17px;}
 #footer-nav li a {font-family: 'Avenir-Heavy'; font-size: 18px; line-height: 15px; color: #e95d28; text-transform: capitalize; text-decoration: none;}
 
 
 /*--------------- #footer-links ---------------*/
-footer {background-color: #0e0e0e; padding: 36px 0 28px; font-size: 13px; line-height: 15px; color: #f9f8e6; text-transform: capitalize;}
+footer {background-color: #0e0e0e; padding: 36px 0 38px; font-size: 13px; line-height: 15px; color: #f9f8e6; text-transform: capitalize;}
 #footer-left {float: left;}
 #footer-left div {display: inline;}
 #footer-left div:first-of-type:after {content:'\2022';margin-left:6px;margin-right:7px}
 #footer-right {float: right;}
 #footer-right span {position: relative; border-right: 1px solid rgba(225, 228, 229, 0.1); padding: 10px; margin-right: 5px;}
-#footer-right a {font-family: 'Avenir-Roman'; font-size: 12px; line-height: 25px; text-transform: uppercase; text-decoration: none; color: #fdb532; letter-spacing: 0.05em;}
+#footer-right a {font-family: 'Avenir-Roman'; font-size: 12px; text-transform: uppercase; text-decoration: none; color: #fdb532; letter-spacing: 0.05em;}
 #footer-right span a {font-family: 'Roboto', 'sans-serif'; font-weight: 700; font-size: 14px; color: #f9f8e6; text-transform: lowercase; letter-spacing: unset;}
 
 
@@ -426,6 +426,12 @@ footer {background-color: #0e0e0e; padding: 36px 0 28px; font-size: 13px; line-h
 	/*--------------- #news ---------------*/
 	#news-img1 {left: 8.651162790697676%;}
 	#news-img2 {left: 19.581395348837212%;}
+
+	/*--------------- #footer ---------------*/
+	#footer-left,
+	#footer-right {float: none;}
+	#footer-right {margin-top: 15px;}
+	#footer-right span {padding-left: 0;}
 }
 
 @media only screen and (max-width:1024px) {
@@ -521,6 +527,12 @@ footer {background-color: #0e0e0e; padding: 36px 0 28px; font-size: 13px; line-h
 	#events {padding: 30px 0;}
 	#events h2 {font-size: 38px; margin-bottom: 30px;}
 
+	/*--------------- #footer-links ---------------*/
+	#footer-links {padding: 30px 0;}
+	#footer-links #footer-logo {margin: 30px auto;}
+	#footer-nav {margin: 15px 0 0;}
+	#footer-nav li a {font-size: 16px;}
+
 }
 
 	/* All Mobile Sizes (devices and browser) */
@@ -546,6 +558,16 @@ footer {background-color: #0e0e0e; padding: 36px 0 28px; font-size: 13px; line-h
 
 	/*--------------- #news ---------------*/
 	#news-links .btn {top: 0; width: 300px; line-height: 20px; font-size: 11px;}
+
+	/*--------------- #footer-links ---------------*/
+	#footer-nav li {margin: 5px 10px}
+	#footer-nav li a {font-size: 14px;}
+
+	/*--------------- #footer ---------------*/
+	footer {font-size: 12px;}
+	#footer-right a {font-size: 11px;}
+	#footer-right span a {font-size: 13px;}
+
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
