@@ -273,18 +273,18 @@ header .right-nav {float: right;}
 #vacation h2 {font-family: 'Prospectus-Bold'; font-size: 48px; text-transform: capitalize; margin: 0; padding: 0;}
 #vacation p {font-size: 16px; line-height: 24px; width: 285px; margin: 10px 0 0;}
 #vacation .btn {font-family: 'Avenir-Heavy'; font-size: 12px; background-color: #008554; float: right; width: 150px; line-height: 30px; margin-top: 18px; letter-spacing: 0.2em;}
-#vacation-gallery {position: relative; top: 50px;}
+#vacation-gallery {position: relative; top: -91px;}
 .vacation-gallery-col{float:left;margin-right:1.338235294117645%;position:relative}
-.vacation-gallery-col:first-of-type{width:9.352941176470589%;top:63px;}
+.vacation-gallery-col:first-of-type{width:9.352941176470589%;top:204px;}
 .vacation-gallery-col:first-of-type .vacation-gallery-image{padding-bottom:232%}
-.vacation-gallery-col:nth-of-type(2){width:24.11764705882353%;top:11px;}
+.vacation-gallery-col:nth-of-type(2){width:24.11764705882353%;top:152px;}
 .vacation-gallery-col:nth-of-type(2) .vacation-gallery-image{padding-bottom: 115%;}
-.vacation-gallery-col:nth-of-type(3){width:17.647058823529413%;top: -141px;}
+.vacation-gallery-col:nth-of-type(3){width:17.647058823529413%;}
 .vacation-gallery-col:nth-of-type(3) .vacation-gallery-image:first-of-type{padding-bottom: 143%;}
-.vacation-gallery-col:nth-of-type(3) .vacation-gallery-image:last-of-type{margin-top:32px;padding-bottom: 70%;}
-.vacation-gallery-col:nth-of-type(4){width:17.647058823529413%; top: -70px;}
+.vacation-gallery-col:nth-of-type(3) .vacation-gallery-image:last-of-type{margin-top:10.8%;padding-bottom: 70%;}
+.vacation-gallery-col:nth-of-type(4){width:17.647058823529413%; top:71px;}
 .vacation-gallery-col:nth-of-type(4) .vacation-gallery-image{padding-bottom: 162%;}
-.vacation-gallery-col:nth-of-type(5){width:25.882352941176475%;margin:0; top: 6px;}
+.vacation-gallery-col:nth-of-type(5){width:25.882352941176475%;margin:0; top:147px;}
 .vacation-gallery-col:nth-of-type(5) .vacation-gallery-image{padding-bottom: 108%;}
 
 /*--------------- #news ---------------*/
@@ -546,6 +546,8 @@ footer {background-color: #0e0e0e; padding: 36px 0 38px; font-size: 13px; line-h
 	#vacation h2 {font-size: 38px;}
 	#vacation p {font-size: 14px;}
 	#vacation-gallery {margin-top: 50px;}
+	.vacation-gallery-col:nth-of-type(3){top: 70px;}
+	.vacation-gallery-col:nth-of-type(4){top:131px;}
 
 	/*--------------- #news ---------------*/
 	#news {padding-bottom: 30px;}
@@ -588,6 +590,9 @@ footer {background-color: #0e0e0e; padding: 36px 0 38px; font-size: 13px; line-h
 	#vacation-content {float: none;}
 	#vacation p {width: unset;}
 	#vacation .btn {width: 130px; line-height: 20px; font-size: 11px; margin-top: 15px; float: none;}
+	.vacation-gallery-col:first-of-type{top:168px;}
+	.vacation-gallery-col:nth-of-type(2){top:148px;}
+	.vacation-gallery-col:nth-of-type(3){top: 94px;}
 
 	/*--------------- #news ---------------*/
 	#news-links .btn {top: 0; width: 300px; line-height: 20px; font-size: 11px;}
@@ -614,6 +619,8 @@ footer {background-color: #0e0e0e; padding: 36px 0 38px; font-size: 13px; line-h
 	/*--------------- #slider ---------------*/
 	#slider h1 {font-size: 65px;}
 
+	/*--------------- #vacation ---------------*/
+	.vacation-gallery-col:nth-of-type(3){top: 112px;}
 }
 
 @media print {

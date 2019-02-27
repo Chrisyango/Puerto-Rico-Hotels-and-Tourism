@@ -179,8 +179,8 @@
 				<a href="./" class="btn">view all news & announcements</a>
 			</div><!-- /.news-links -->
 			<div id="img-container" class="clearfix">
-				<div id="news-img1" style="background: url('../images/news1.jpg') center no-repeat; background-size: cover;"></div>
-				<div id="news-img2" style="background: url('../images/news2.jpg') center no-repeat; background-size: cover;"></div>
+				<div id="news-img1" style="background: url('./_assets_/images/news1.jpg') center no-repeat; background-size: cover;"></div>
+				<div id="news-img2" style="background: url('./_assets_/images/news2.jpg') center no-repeat; background-size: cover;"></div>
 			</div>
 		</div><!-- /.container -->
 	</section><!-- /#news -->

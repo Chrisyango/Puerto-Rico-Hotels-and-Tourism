@@ -70,7 +70,15 @@
 			<ul id="nav">
 				<li><a href="./">home page</a></li>
 				<li><a href="./">about us</a></li>
-				<li><a href="./">member</a></li>
+				<li>
+					<a href="./">member</a>
+					<ul>
+						<li><a href="./">This is a link</a></li>
+						<li><a href="./">This is a link</a></li>
+						<li><a href="./">This is a link</a></li>
+						<li><a href="./">This is a link</a></li>
+					</ul>
+				</li>
 				<li><a href="./">publications</a></li>
 			</ul> <!-- /#nav -->
 		</nav>
